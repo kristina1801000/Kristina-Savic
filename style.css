@@ -1,0 +1,138 @@
+body
+{
+    background-image: url(slika1.jpg); 
+    background-repeat:repeat; 
+    background-size: cover;
+    font-family: Calibri ;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    font-weight: bold;
+    display: inline;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+  li a:hover 
+  {
+    background-color:#ec7063;
+  }
+#div1
+  {
+      height: 250px;
+      width: 270px;
+    position:fixed;
+    top: 250px;
+    background-color:#ec7063 ;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    padding-top:30px;
+    
+   
+   
+  }
+  @keyframes Rotacija
+  {
+     from { transform: rotate(0deg) translateX(150px) rotate(0deg); }
+     to   { transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+ }
+  #rotacija1
+  {
+      width: 50px;
+      position: absolute;
+      bottom: 150px;
+      left: 1000px;
+      animation-name:Rotacija;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;    
+  }
+  @media screen and (max-width:600px)
+  {   li{float: none;}
+      li a{display: inline-block;}
+      #rotacija1{display:none;}
+     
+    .forma1 {
+       max-width: 100px;
+        position: center;
+      
+    }
+      h1{text-align:center;}
+    
+  }
+
+.forma2 {
+    max-width: 100px;
+    position: center;
+}
+#div1{margin-top:10%;}
+
+
+
+
+.forma1 {
+    border-radius: 10px;
+    max-width: 500px;
+    background-color: #ec7063;
+    text-align: center;
+    margin: 0px auto;
+}
+  input[type=text],input[type=date]
+  {
+      width: 200px;
+      border-radius: 8px;
+      border:none;
+      text-align: center;
+  }
+  .forma1 p
+  {
+      font-weight: bold;
+  }
+  input[type=submit]
+  {   width: 100px;
+    height: 25px;
+      background-color: green;
+      border-radius: 8px;
+      border:none;
+  }
+  h1{
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color:white;
+      padding-top:30px;
+      text-align:center;
+
+      
+
+  }
+  img{
+      margin-left:5px;
+      margin-right:5px;
+      border-radius:5px;
+  }
+.forma2 {
+    border-radius: 10px;
+    max-width: 500px;
+    background-color: #ec7063;
+    text-align: center;
+    margin: 0px auto;
+}
+    .saveti {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    
+    
+}
